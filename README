@@ -1,0 +1,3 @@
+A Dockerfile was created which builds a Jupyter notebook image with redis and biopython downloaded.
+
+This Jupyter notebook was run from VM1 with "docker run -p 8888:8888 delaoliva17/bdp2-midterm
