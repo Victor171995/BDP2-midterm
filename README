@@ -3,3 +3,5 @@ A Dockerfile was created which builds a Jupyter notebook image with redis and bi
 This Jupyter notebook was run from VM1 with "docker run -p 8888:8888 delaoliva17/bdp2-midterm
 
 Persistance was established for the notebook through bind mounting on the host directory ~/review/BDP2-midterm/work and the container directory /home/jovyan/work
+
+Docker compose .yml file was created which starts up Jupyter and portainer. Only Jupyter is mount binded in the first version. Complete version coming soon.
