@@ -1,0 +1,18 @@
+version: '3'
+services:
+        jupyter-notebook:
+                image: delaoliva17/bdp2-midterm:latest
+                volumes: 
+                        - ~/review/BDP2-midterm/work:/home/jovyan/work
+
+        portainer:
+                image: portainer/portainer
+                #        volumes:
+                # - /portainer_data:/data/portainer
+                #volumes:
+                #        portainer_data:
+
+
+
+
+        
